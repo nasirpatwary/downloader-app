@@ -29,15 +29,14 @@ const SnaptubeDownloadPage = () => {
       </div>
 
       {/* Download Button - Bottom Center */}
-      <div className="mt-2 md:w-96 mx-auto relative animate__animated animate__fadeInUp">
+      <div className="mt-2 md:w-44 mx-auto animate__animated animate__fadeInUp">
         <a
           download
           href="/download.png"
           className="block text-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
         >
-          Download
+          Download Now
         </a>
-        <FiDownload className="absolute top-3 right-35 z-10" />
       </div>
       <div>
         <img className="mx-auto border" src={demu} alt="" />
@@ -104,7 +103,7 @@ const SnaptubeDownloadPage = () => {
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a download href="/download.png">Download</a>
         </nav>
         <div className="flex justify-center  flex-wrap md:flex-row items-center text-black gap-4">
           <img
