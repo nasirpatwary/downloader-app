@@ -98,7 +98,7 @@ const SnaptubeDownloadPage = () => {
       }}
     >
       <div className="hero-overlay bg-gradient-to-t from-black to-[rgba(31, 31, 31, 0)]"></div>
-      <footer className="flex space-y-3 py-4 flex-col footer-horizontal footer-center rounded md:p-9">
+      <footer className="flex space-y-3 py-4 flex-col footer-horizontal footer-center rounded md:p-10">
         <h3>Easily download videos from YouTube Instagram Facebook WhatsApp and Twitter with one click.</h3>
         <nav className="flex justify-center flex-wrap gap-4">
           <a className="link link-hover">About us</a>
