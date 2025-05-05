@@ -1,7 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import app from "./assets/app.jpg";
 import demu from "./assets/demu.jpg";
-import { FiDownload } from "react-icons/fi";
 const SnaptubeDownloadPage = () => {
   return (
     <div className="max-w-5xl mx-auto space-y-8 bg-white p-4 md:p-8 font-sans text-center overflow-hidden">
@@ -14,8 +13,8 @@ const SnaptubeDownloadPage = () => {
             alt=""
           />
         </a>
-        <h2 className="text-2xl mt-4 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
-          Big opportunities
+        <h2 className="text-2xl leading-10 mt-4 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
+          Big opportunities <br />
           <Typewriter
             words={[" All Video Downloader."]}
             loop
