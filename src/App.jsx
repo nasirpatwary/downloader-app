@@ -37,7 +37,7 @@ const SnaptubeDownloadPage = () => {
         >
           Download
         </a>
-        <FiDownload className="absolute top-3 right-20 z-10" />
+        <FiDownload className="absolute top-3 right-35 z-10" />
       </div>
       <div>
         <img className="mx-auto border" src={demu} alt="" />
