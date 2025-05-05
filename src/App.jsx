@@ -6,7 +6,7 @@ const SnaptubeDownloadPage = () => {
     <div className="max-w-5xl mx-auto space-y-8 bg-white p-4 md:p-8 font-sans text-center overflow-hidden">
       {/* Title & App Icon */}
       <div>
-        <a downloadhref="/download.apk">
+        <a download href="/download.apk">
           <img
             className="w-14 h-14 rounded-full mx-auto animate__animated animate__repeat-2 animate__animated animate__fadeInUp"
             src={app}
@@ -102,7 +102,7 @@ const SnaptubeDownloadPage = () => {
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
-          <a downloadhref="/download.apk">Download</a>
+          <a download href="/download.apk">Download</a>
         </nav>
         <div className="flex justify-center  flex-wrap md:flex-row items-center text-black gap-4">
           <img
