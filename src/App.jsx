@@ -14,8 +14,8 @@ const SnaptubeDownloadPage = () => {
             alt=""
           />
         </a>
-        <h2 className="text-2xl leading-10 mt-4 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
-          Big opportunities <br />
+        <h2 className="text-2xl mt-4 bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
+          Big opportunities
           <Typewriter
             words={[" All Video Downloader."]}
             loop
@@ -29,7 +29,7 @@ const SnaptubeDownloadPage = () => {
       </div>
 
       {/* Download Button - Bottom Center */}
-      <div className="mt-6 md:w-96 mx-auto relative animate__animated animate__fadeInUp">
+      <div className="mt-2 md:w-96 mx-auto relative animate__animated animate__fadeInUp">
         <a
           download
           href="/download.png"
@@ -40,7 +40,7 @@ const SnaptubeDownloadPage = () => {
         <FiDownload className="absolute top-3 right-20 z-10" />
       </div>
       <div>
-        <img className="mx-auto" src={demu} alt="" />
+        <img className="mx-auto border" src={demu} alt="" />
       </div>
       <p className="text-xl bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">
         {" "}
